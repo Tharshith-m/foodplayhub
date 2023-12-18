@@ -1,0 +1,16 @@
+/* Updated CSS */
+.video-player {
+  height: 25vh; /* 25% of the viewport height */
+  width: 200vw; /* 100% of the viewport width */
+}
+
+.video-cards {
+  position: relative;
+  overflow: hidden; /* Hide overflow to ensure only one video is visible */
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+}
